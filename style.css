@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: rgb(192, 192, 197);
+}
+.main-title {
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: 45px;
+    text-align: center;
+
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img {
+    object-fit: contain;
+    max-width:45%;
+    max-height: 350px;
+    border-radius: 7px;
+}
+.tabs {
+    border-radius: 7px;
+}
